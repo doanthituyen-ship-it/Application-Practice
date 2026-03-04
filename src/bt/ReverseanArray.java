@@ -6,7 +6,7 @@ package bt;
 
    import java.util.Scanner;
 
-public class ReverseanArray {
+public class ReverseAnArray {
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -46,4 +46,5 @@ public class ReverseanArray {
 }
 
    
+
 
