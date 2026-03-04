@@ -13,7 +13,7 @@ public class ReverseAnArray {
     System.out.print("Enter number of values: ");
     int n = scanner.nextInt();
     int[] a = new int[n];
-    for (int i = 0; i < n-1; i++) {
+    for (int i = 0; i < n; i++) {
       int i2 = i + 1;
       System.out.print(" Value number " +i2+ ": ");
       a[i] = scanner.nextInt();
