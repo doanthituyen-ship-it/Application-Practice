@@ -29,8 +29,8 @@ public class ReverseanArray {
     System.out.println("]");
     for (int i = 0; i <= (a.length) / 2; i++) {
       int tam = a[i];
-      a[i] = a[n - 2];
-      a[n - 2] = tam;
+      a[i] = a[n - 1];
+      a[n - 1] = tam;
       n--;
     }
     System.out.print("[");
@@ -46,4 +46,5 @@ public class ReverseanArray {
 }
 
    
+
 
